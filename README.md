@@ -74,8 +74,9 @@ BookIt/
 
 ---
 
-## Example `.env.example`
+## Environment Setup
 
+### Example `.env.example`
 ```ini
 PORT=5000
 MONGODB_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/bookit
@@ -83,7 +84,7 @@ MONGODB_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/bookit
 
 ---
 
-## 🧱 Installation
+## Installation
 
 ```bash
 # Clone the repositories
@@ -108,7 +109,7 @@ npm run dev --prefix BookIt-Backend
 
 # Run frontend
 npm run dev --prefix BookIt-Frontend
-
+```
 
 Then open your browser at **http://localhost:5173**
 
@@ -158,10 +159,10 @@ Then open your browser at **http://localhost:5173**
 
 ## Deliverables Summary
 
-- Organized Next.js-like project folder (Vite React + Node.js)  
+- Organized Vite React + Node.js full-stack structure  
 - `.env.example` included  
-- README with setup & rendering rationale  
-- Fully functional backend routes & integration  
-- Frontend pages built and connected  
+- Clear README with setup & environment instructions  
+- Fully functional backend routes and frontend integration  
+- Complete booking flow tested end-to-end  
 
 ---
