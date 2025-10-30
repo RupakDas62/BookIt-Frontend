@@ -23,6 +23,17 @@ Users can browse available experiences, view available dates and time slots, app
 
 ---
 
+## Live URLs
+
+| Type | URL |
+|------|-----|
+| **Frontend (Deployed)** | [https://bookit-client-rupak-das-projects.vercel.app/](https://bookit-client-rupak-das-projects.vercel.app/) |
+| **Backend (Deployed)** | [https://bookit-backend-dgxp.onrender.com/](https://bookit-backend-dgxp.onrender.com/) |
+| **Frontend Repository** | [https://github.com/RupakDas62/BookIt-Frontend](https://github.com/RupakDas62/BookIt-Frontend) |
+| **Backend Repository** | [https://github.com/RupakDas62/BookIt-Backend](https://github.com/RupakDas62/BookIt-Backend) |
+
+---
+
 ## Folder Structure
 
 ```
@@ -71,6 +82,13 @@ BookIt/
 | `POST` | `/api/promo`           | **Create a new promo code (Postman use)** |
 | `POST` | `/api/promo/validate`  | Validate promo code                       |
 | `POST` | `/api/bookings`        | Create a booking                          |
+
+---
+
+## Postman Collection
+
+A **Postman collection (`BookIt.postman_collection.json`)** has been added for easy API testing.  
+You can import it directly into Postman to test all backend endpoints — including experiences, promo validation, and booking creation.
 
 ---
 
