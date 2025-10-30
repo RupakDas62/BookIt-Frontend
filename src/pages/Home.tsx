@@ -17,6 +17,7 @@ const Home = () => {
   const [experiences, setExperiences] = useState<Experience[]>([]);
   const [loading, setLoading] = useState(true);
   const [searchTerm, setSearchTerm] = useState("");
+  console.log(import.meta.env.VITE_API_BASE_URL)
 
   useEffect(() => {
     const fetchExperiences = async () => {
