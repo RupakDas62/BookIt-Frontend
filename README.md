@@ -102,6 +102,8 @@ npm install --prefix BookIt-Frontend
 # Create .env file for backend
 cp BookIt-Backend/.env.example BookIt-Backend/.env
 
+add .env file in frontend and add VITE_API_BASE_URL
+
 # Add your MongoDB connection string in BookIt-Backend/.env
 
 # Run backend
