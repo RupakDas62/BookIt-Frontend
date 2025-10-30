@@ -83,22 +83,32 @@ MONGODB_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/bookit
 
 ---
 
-## Setup Instructions
+## 🧱 Installation
 
-### Backend
 ```bash
-cd server
-npm install
-cp .env.example .env     # Add your MongoDB URI
-npm run dev
-```
+# Clone the repositories
 
-### Frontend
-```bash
-cd client
-npm install
-npm run dev
-```
+# Frontend
+git clone https://github.com/RupakDas62/BookIt-Frontend.git
+
+# Backend
+git clone https://github.com/RupakDas62/BookIt-Backend.git
+
+# Install dependencies for both frontend and backend
+npm install --prefix BookIt-Backend
+npm install --prefix BookIt-Frontend
+
+# Create .env file for backend
+cp BookIt-Backend/.env.example BookIt-Backend/.env
+
+# Add your MongoDB connection string in BookIt-Backend/.env
+
+# Run backend
+npm run dev --prefix BookIt-Backend
+
+# Run frontend
+npm run dev --prefix BookIt-Frontend
+
 
 Then open your browser at **http://localhost:5173**
 
